@@ -1,0 +1,13 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Mbd06b\\Wp-devops-boilerplate\\" : "src"
+		}
+	},
+	"name" : "mbd06b/wp-devops-boilerplate",
+	"type" : "project",
+	"description" : "Boilerplates for CI/CD patterns of wordpress development.",
+	"require" : {
+		"php" : ">=7.3"
+	}
+}

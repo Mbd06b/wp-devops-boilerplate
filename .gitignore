@@ -1,0 +1,22 @@
+
+
+#eclipse
+.project
+.settings
+
+#ignore some wordpress composer conventions
+wp/
+content/vendor/
+content/themes/
+content/plugins/
+
+#ignore some composer conventions
+/vendor/
+.buildpath
+
+# Don’t ignore themes dir, but ignore everything inside
+!/wp-content/themes
+/wp-content/themes/*
+
+# Don’t ignore child theme
+!/wp-content/themes/nscoctwentyseventeen
