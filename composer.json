@@ -1,13 +1,43 @@
 {
-	"autoload" : {
-		"psr-4" : {
-			"Mbd06b\\Wp-devops-boilerplate\\" : "src"
-		}
-	},
 	"name" : "mbd06b/wp-devops-boilerplate",
 	"type" : "project",
 	"description" : "Boilerplates for CI/CD patterns of wordpress development.",
+	"repositories" : [{
+			"type" : "composer",
+			"url" : "https://wpackagist.org"
+		}, {
+			"type" : "vcs",
+			"url" : "https://github.com/Mbd06b/wp-devops-boilerplate.git"
+		}
+	],
 	"require" : {
-		"php" : ">=7.3"
-	}
+		"php" : ">=7.1",
+		"wpackagist-theme/twentyseventeen" : "*"
+	},
+	"extra" : {
+		"wordpress-install-dir" : "wp",
+		"installer-paths" : {
+			"wp-content/plugins/{$name}/" : [
+				"type:wordpress-plugin"
+			],
+			"wp-content/themes/{$name}/" : [
+				"type:wordpress-theme"
+			]
+		}
+	},
+	"minimum-stability" : "beta",
+	"authors" : [{
+			"name" : "Matthew Dowell",
+			"email" : "mbd06b@gmail.com",
+			"homepage" : "https://worscipe.com",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"email" : "mbd06b@gmail.com"
+	},
+	"keywords" : [
+		"wordpress",
+		"twentyseventeen"
+	]
 }
