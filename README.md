@@ -6,5 +6,5 @@ Adapting from:
 -A Jenkins Pipeline for Wordpress Projects
 https://webdevstudios.com/2018/01/04/jenkins-pipeline-wordpress-projects/
 
-Xeno Medio, Inc.
+Xeno Media Wordpress Template
 https://github.com/xenomedia/docker-starter/tree/master/wordpress
