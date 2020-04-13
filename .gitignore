@@ -20,3 +20,23 @@ content/plugins/
 
 # Don’t ignore child theme
 !/wp-content/themes/nscoctwentyseventeen
+
+#build artifacts
+assets/bower_components/bourbon/
+assets/bower_components/neat/
+node_modules/
+.idea/
+.sass-cache
+.htaccess
+compass_app_log.txt
+*.log
+.DS_Store
+.LSOverride
+
+style.css
+style.min.css
+assets/scripts/project.js
+assets/scripts/project.min.js
+assets/images/svg-icons.svg
+assets/images/sprites.png
+languages/_s.pot
